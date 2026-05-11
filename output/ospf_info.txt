@@ -1,0 +1,1351 @@
+
+===== PCL.FSJ.DC01.AGG01 =====
+ Routing Process "ospf 1" with ID 100.127.0.13
+ Process uptime is 410 days 20 hours 47 minutes
+ Process bound to VRF default
+ Conforms to RFC2328, and RFC1583 Compatibility flag is disabled
+ Supports only single TOS(TOS0) routes
+ Supports opaque LSA
+ Supports Graceful Restart
+ SPF schedule delay initial 0 secs 500 msecs
+ SPF schedule delay min 0 secs 500 msecs
+ SPF schedule delay max 50 secs 0 msecs
+ Refresh timer 10 secs
+ Number of incoming current DD exchange neighbors 0/64
+ Number of outgoing current DD exchange neighbors 0/64
+ Initial LSA throttle delay 0 secs 0 msecs
+ Minimum hold time for LSA throttle 5 secs 0 msecs
+ Maximum wait time for LSA throttle 5 secs 0 msecs
+ Minimum LSA arrival 1 secs 0 msecs
+ Number of external LSA 0. Checksum 0x000000
+ Number of opaque AS LSA 0. Checksum 0x000000
+ Number of non-default external LSA 0
+ External LSA database is unlimited.
+ Number of LSA originated 10
+ Number of LSA received 944646
+ IPFRR per-prefix tiebreakers:
+    Name                                Index
+    Primary path                        20
+    Node Protecting                     30
+    Interface disjoint                  60
+    Broadcast interface disjoint        70
+    Downstream path                     90
+    Secondary path                      255
+ LFA termination hold-on timer : 0 secs 600 msecs
+ Number of areas attached to this router: 1
+MemPool - struct ospf lsa             : (0-57) | Total (57/100000) blk_size:176
+MemPool - struct rxmt                 : | Total (0/0) blk_size:8
+MemPool - OSPF RIB msg4               : | Total (0/0) blk_size:2920
+MemPool - OSPF RIB msg4 nh 1     : | Total (0/0) blk_size:24
+MemPool - OSPF RIB msg4 nh 2     : | Total (0/0) blk_size:48
+MemPool - OSPF RIB msg4 nh 4     : | Total (0/0) blk_size:96
+MemPool - OSPF RIB msg4 nh 8     : | Total (0/0) blk_size:192
+MemPool - OSPF RIB msg4 nh 16    : | Total (0/0) blk_size:384
+MemPool - OSPF RIB msg4 nh 32    : | Total (0/0) blk_size:768
+MemPool - OSPF RIB msg4 nh 64    : | Total (0/0) blk_size:1536
+MemPool - OSPF RIB msg4 nh 128   : | Total (0/0) blk_size:3072
+MemPool - OSPF RIB msg4 nh 255   : | Total (0/0) blk_size:6120
+    Area 0.0.0.0 (BACKBONE)
+        Number of interfaces in this area is 3(4)
+        Number of fully adjacent neighbors in this area is 1
+        Area has no authentication
+        SPF algorithm last executed 277:46:40.674 ago
+        SPF algorithm executed 71 times
+        Number of LSA 52. Checksum 0x17d497
+
+ Routing Process "ospf 1000" with ID 192.0.0.1
+ Process uptime is 75 days 0 hour 44 minutes
+ Process bound to VRF default
+ Conforms to RFC2328, and RFC1583 Compatibility flag is disabled
+ Supports only single TOS(TOS0) routes
+ Supports opaque LSA
+ Supports Graceful Restart
+ SPF schedule delay initial 0 secs 500 msecs
+ SPF schedule delay min 0 secs 500 msecs
+ SPF schedule delay max 50 secs 0 msecs
+ Refresh timer 10 secs
+ Number of incoming current DD exchange neighbors 0/64
+ Number of outgoing current DD exchange neighbors 0/64
+ Initial LSA throttle delay 0 secs 0 msecs
+ Minimum hold time for LSA throttle 5 secs 0 msecs
+ Maximum wait time for LSA throttle 5 secs 0 msecs
+ Minimum LSA arrival 1 secs 0 msecs
+ Number of external LSA 0. Checksum 0x000000
+ Number of opaque AS LSA 0. Checksum 0x000000
+ Number of non-default external LSA 0
+ External LSA database is unlimited.
+ Number of LSA originated 20
+ Number of LSA received 282846
+ IPFRR per-prefix tiebreakers:
+    Name                                Index
+    Primary path                        20
+    Node Protecting                     30
+    Interface disjoint                  60
+    Broadcast interface disjoint        70
+    Downstream path                     90
+    Secondary path                      255
+ LFA termination hold-on timer : 0 secs 600 msecs
+ Number of areas attached to this router: 1
+MemPool - struct ospf lsa             : (0-121) | Total (121/100000) blk_size:176
+MemPool - struct rxmt                 : | Total (0/0) blk_size:8
+MemPool - OSPF RIB msg4               : | Total (0/0) blk_size:2920
+MemPool - OSPF RIB msg4 nh 1     : | Total (0/0) blk_size:24
+MemPool - OSPF RIB msg4 nh 2     : | Total (0/0) blk_size:48
+MemPool - OSPF RIB msg4 nh 4     : | Total (0/0) blk_size:96
+MemPool - OSPF RIB msg4 nh 8     : | Total (0/0) blk_size:192
+MemPool - OSPF RIB msg4 nh 16    : | Total (0/0) blk_size:384
+MemPool - OSPF RIB msg4 nh 32    : | Total (0/0) blk_size:768
+MemPool - OSPF RIB msg4 nh 64    : | Total (0/0) blk_size:1536
+MemPool - OSPF RIB msg4 nh 128   : | Total (0/0) blk_size:3072
+MemPool - OSPF RIB msg4 nh 255   : | Total (0/0) blk_size:6120
+    Area 0.0.0.0 (BACKBONE)
+        Number of interfaces in this area is 4(4)
+        Number of fully adjacent neighbors in this area is 3
+        Area has no authentication
+        SPF algorithm last executed 00:43:17.805 ago
+        SPF algorithm executed 2018 times
+        Number of LSA 108. Checksum 0x2faede
+
+
+===== PCL.FSJ.DC01.AGG02 =====
+ Routing Process "ospf 1" with ID 100.127.0.14
+ Process uptime is 363 days 17 hours 3 minutes
+ Process bound to VRF default
+ Conforms to RFC2328, and RFC1583 Compatibility flag is disabled
+ Supports only single TOS(TOS0) routes
+ Supports opaque LSA
+ Supports Graceful Restart
+ SPF schedule delay initial 0 secs 500 msecs
+ SPF schedule delay min 0 secs 500 msecs
+ SPF schedule delay max 50 secs 0 msecs
+ Refresh timer 10 secs
+ Number of incoming current DD exchange neighbors 0/64
+ Number of outgoing current DD exchange neighbors 0/64
+ Initial LSA throttle delay 0 secs 0 msecs
+ Minimum hold time for LSA throttle 5 secs 0 msecs
+ Maximum wait time for LSA throttle 5 secs 0 msecs
+ Minimum LSA arrival 1 secs 0 msecs
+ Number of external LSA 0. Checksum 0x000000
+ Number of opaque AS LSA 0. Checksum 0x000000
+ Number of non-default external LSA 0
+ External LSA database is unlimited.
+ Number of LSA originated 28
+ Number of LSA received 837272
+ IPFRR per-prefix tiebreakers:
+    Name                                Index
+    Primary path                        20
+    Node Protecting                     30
+    Interface disjoint                  60
+    Broadcast interface disjoint        70
+    Downstream path                     90
+    Secondary path                      255
+ LFA termination hold-on timer : 0 secs 600 msecs
+ Number of areas attached to this router: 1
+MemPool - struct ospf lsa             : (0-57) | Total (57/100000) blk_size:176
+MemPool - struct rxmt                 : | Total (0/0) blk_size:8
+MemPool - OSPF RIB msg4               : | Total (0/0) blk_size:2920
+MemPool - OSPF RIB msg4 nh 1     : | Total (0/0) blk_size:24
+MemPool - OSPF RIB msg4 nh 2     : | Total (0/0) blk_size:48
+MemPool - OSPF RIB msg4 nh 4     : | Total (0/0) blk_size:96
+MemPool - OSPF RIB msg4 nh 8     : | Total (0/0) blk_size:192
+MemPool - OSPF RIB msg4 nh 16    : | Total (0/0) blk_size:384
+MemPool - OSPF RIB msg4 nh 32    : | Total (0/0) blk_size:768
+MemPool - OSPF RIB msg4 nh 64    : | Total (0/0) blk_size:1536
+MemPool - OSPF RIB msg4 nh 128   : | Total (0/0) blk_size:3072
+MemPool - OSPF RIB msg4 nh 255   : | Total (0/0) blk_size:6120
+    Area 0.0.0.0 (BACKBONE)
+        Number of interfaces in this area is 4(4)
+        Number of fully adjacent neighbors in this area is 1
+        Area has no authentication
+        SPF algorithm last executed 277:46:40.008 ago
+        SPF algorithm executed 44 times
+        Number of LSA 52. Checksum 0x17d497
+
+ Routing Process "ospf 1000" with ID 192.0.0.2
+ Process uptime is 62 days 4 hours 28 minutes
+ Process bound to VRF default
+ Conforms to RFC2328, and RFC1583 Compatibility flag is disabled
+ Supports only single TOS(TOS0) routes
+ Supports opaque LSA
+ Supports Graceful Restart
+ SPF schedule delay initial 0 secs 500 msecs
+ SPF schedule delay min 0 secs 500 msecs
+ SPF schedule delay max 50 secs 0 msecs
+ Refresh timer 10 secs
+ Number of incoming current DD exchange neighbors 0/64
+ Number of outgoing current DD exchange neighbors 0/64
+ Initial LSA throttle delay 0 secs 0 msecs
+ Minimum hold time for LSA throttle 5 secs 0 msecs
+ Maximum wait time for LSA throttle 5 secs 0 msecs
+ Minimum LSA arrival 1 secs 0 msecs
+ Number of external LSA 0. Checksum 0x000000
+ Number of opaque AS LSA 0. Checksum 0x000000
+ Number of non-default external LSA 0
+ External LSA database is unlimited.
+ Number of LSA originated 10
+ Number of LSA received 284632
+ IPFRR per-prefix tiebreakers:
+    Name                                Index
+    Primary path                        20
+    Node Protecting                     30
+    Interface disjoint                  60
+    Broadcast interface disjoint        70
+    Downstream path                     90
+    Secondary path                      255
+ LFA termination hold-on timer : 0 secs 600 msecs
+ Number of areas attached to this router: 1
+MemPool - struct ospf lsa             : (0-121) | Total (121/100000) blk_size:176
+MemPool - struct rxmt                 : | Total (0/0) blk_size:8
+MemPool - OSPF RIB msg4               : | Total (0/0) blk_size:2920
+MemPool - OSPF RIB msg4 nh 1     : | Total (0/0) blk_size:24
+MemPool - OSPF RIB msg4 nh 2     : | Total (0/0) blk_size:48
+MemPool - OSPF RIB msg4 nh 4     : | Total (0/0) blk_size:96
+MemPool - OSPF RIB msg4 nh 8     : | Total (0/0) blk_size:192
+MemPool - OSPF RIB msg4 nh 16    : | Total (0/0) blk_size:384
+MemPool - OSPF RIB msg4 nh 32    : | Total (0/0) blk_size:768
+MemPool - OSPF RIB msg4 nh 64    : | Total (0/0) blk_size:1536
+MemPool - OSPF RIB msg4 nh 128   : | Total (0/0) blk_size:3072
+MemPool - OSPF RIB msg4 nh 255   : | Total (0/0) blk_size:6120
+    Area 0.0.0.0 (BACKBONE)
+        Number of interfaces in this area is 3(3)
+        Number of fully adjacent neighbors in this area is 2
+        Area has no authentication
+        SPF algorithm last executed 00:43:19.087 ago
+        SPF algorithm executed 1950 times
+        Number of LSA 108. Checksum 0x2faede
+
+
+===== PCL.FSJ.BLTC.RTR01 =====
+ Routing Process "ospf 1" with ID 100.127.0.21
+ Process uptime is 1 day 5 hours 36 minutes
+ Process bound to VRF default
+ Conforms to RFC2328, and RFC1583 Compatibility flag is disabled
+ Supports only single TOS(TOS0) routes
+ Supports opaque LSA
+ Supports Graceful Restart
+ SPF schedule delay initial 0 secs 500 msecs
+ SPF schedule delay min 0 secs 500 msecs
+ SPF schedule delay max 50 secs 0 msecs
+ Refresh timer 10 secs
+ Number of incoming current DD exchange neighbors 0/64
+ Number of outgoing current DD exchange neighbors 0/64
+ Initial LSA throttle delay 0 secs 0 msecs
+ Minimum hold time for LSA throttle 5 secs 0 msecs
+ Maximum wait time for LSA throttle 5 secs 0 msecs
+ Minimum LSA arrival 1 secs 0 msecs
+ Number of external LSA 0. Checksum 0x000000
+ Number of opaque AS LSA 0. Checksum 0x000000
+ Number of non-default external LSA 0
+ External LSA database is unlimited.
+ Number of LSA originated 3
+ Number of LSA received 3333
+ IPFRR per-prefix tiebreakers:
+    Name                                Index
+    Primary path                        20
+    Node Protecting                     30
+    Interface disjoint                  60
+    Broadcast interface disjoint        70
+    Downstream path                     90
+    Secondary path                      255
+ LFA termination hold-on timer : 0 secs 600 msecs
+ Number of areas attached to this router: 1
+MemPool - struct ospf lsa             : (0-70) | Total (70/100000) blk_size:176
+MemPool - struct rxmt                 : | Total (0/0) blk_size:8
+MemPool - OSPF RIB msg4               : | Total (0/0) blk_size:2920
+MemPool - OSPF RIB msg4 nh 1     : | Total (0/0) blk_size:24
+MemPool - OSPF RIB msg4 nh 2     : | Total (0/0) blk_size:48
+MemPool - OSPF RIB msg4 nh 4     : | Total (0/0) blk_size:96
+MemPool - OSPF RIB msg4 nh 8     : | Total (0/0) blk_size:192
+MemPool - OSPF RIB msg4 nh 16    : | Total (0/0) blk_size:384
+MemPool - OSPF RIB msg4 nh 32    : | Total (0/0) blk_size:768
+MemPool - OSPF RIB msg4 nh 64    : | Total (0/0) blk_size:1536
+MemPool - OSPF RIB msg4 nh 128   : | Total (0/0) blk_size:3072
+MemPool - OSPF RIB msg4 nh 255   : | Total (0/0) blk_size:6120
+    Area 0.0.0.100
+        Number of interfaces in this area is 3(4)
+        Number of fully adjacent neighbors in this area is 1
+        Number of fully adjacent virtual neighbors through this area is 0
+        Area has no authentication
+        SPF algorithm last executed 11:31:30.903 ago
+        SPF algorithm executed 12 times
+        Number of LSA 58. Checksum 0x1ae9d1
+
+ Routing Process "ospf 1000" with ID 192.0.0.17
+ Process uptime is 1 day 5 hours 36 minutes
+ Process bound to VRF default
+ Bidirectional Forwarding Detection is configured
+ Conforms to RFC2328, and RFC1583 Compatibility flag is disabled
+ Supports only single TOS(TOS0) routes
+ Supports opaque LSA
+ Supports Graceful Restart
+ SPF schedule delay initial 0 secs 500 msecs
+ SPF schedule delay min 0 secs 500 msecs
+ SPF schedule delay max 50 secs 0 msecs
+ Refresh timer 10 secs
+ Number of incoming current DD exchange neighbors 0/64
+ Number of outgoing current DD exchange neighbors 0/64
+ Initial LSA throttle delay 0 secs 0 msecs
+ Minimum hold time for LSA throttle 5 secs 0 msecs
+ Maximum wait time for LSA throttle 5 secs 0 msecs
+ Minimum LSA arrival 1 secs 0 msecs
+ Number of external LSA 0. Checksum 0x000000
+ Number of opaque AS LSA 0. Checksum 0x000000
+ Number of non-default external LSA 0
+ External LSA database is unlimited.
+ Number of LSA originated 7
+ Number of LSA received 6284
+ IPFRR per-prefix tiebreakers:
+    Name                                Index
+    Primary path                        20
+    Node Protecting                     30
+    Interface disjoint                  60
+    Broadcast interface disjoint        70
+    Downstream path                     90
+    Secondary path                      255
+ LFA termination hold-on timer : 0 secs 600 msecs
+ Number of areas attached to this router: 1
+MemPool - struct ospf lsa             : (0-121) | Total (121/100000) blk_size:176
+MemPool - struct rxmt                 : | Total (0/0) blk_size:8
+MemPool - OSPF RIB msg4               : | Total (0/0) blk_size:2920
+MemPool - OSPF RIB msg4 nh 1     : | Total (0/0) blk_size:24
+MemPool - OSPF RIB msg4 nh 2     : | Total (0/0) blk_size:48
+MemPool - OSPF RIB msg4 nh 4     : | Total (0/0) blk_size:96
+MemPool - OSPF RIB msg4 nh 8     : | Total (0/0) blk_size:192
+MemPool - OSPF RIB msg4 nh 16    : | Total (0/0) blk_size:384
+MemPool - OSPF RIB msg4 nh 32    : | Total (0/0) blk_size:768
+MemPool - OSPF RIB msg4 nh 64    : | Total (0/0) blk_size:1536
+MemPool - OSPF RIB msg4 nh 128   : | Total (0/0) blk_size:3072
+MemPool - OSPF RIB msg4 nh 255   : | Total (0/0) blk_size:6120
+    Area 0.0.0.0 (BACKBONE)
+        Number of interfaces in this area is 2(3)
+        Number of fully adjacent neighbors in this area is 1
+        Area has no authentication
+        SPF algorithm last executed 00:43:17.510 ago
+        SPF algorithm executed 41 times
+        Number of LSA 108. Checksum 0x2faede
+
+
+===== PCL.FSJ.P109.RTR01 =====
+ Routing Process "ospf 1" with ID 100.127.0.18
+ Process uptime is 83 days 1 hour 57 minutes
+ Process bound to VRF default
+ Conforms to RFC2328, and RFC1583 Compatibility flag is disabled
+ Supports only single TOS(TOS0) routes
+ Supports opaque LSA
+ Supports Graceful Restart
+ SPF schedule delay initial 0 secs 500 msecs
+ SPF schedule delay min 0 secs 500 msecs
+ SPF schedule delay max 50 secs 0 msecs
+ Refresh timer 10 secs
+ Number of incoming current DD exchange neighbors 0/64
+ Number of outgoing current DD exchange neighbors 0/64
+ Initial LSA throttle delay 0 secs 0 msecs
+ Minimum hold time for LSA throttle 5 secs 0 msecs
+ Maximum wait time for LSA throttle 5 secs 0 msecs
+ Minimum LSA arrival 1 secs 0 msecs
+ Number of external LSA 0. Checksum 0x000000
+ Number of opaque AS LSA 0. Checksum 0x000000
+ Number of non-default external LSA 0
+ External LSA database is unlimited.
+ Number of LSA originated 32
+ Number of LSA received 211528
+ IPFRR Computation Status:NOT-RUNNING
+ IPFRR per-prefix tiebreakers:
+    Name                                Index
+    Primary path                        20
+    Node Protecting                     30
+    Interface disjoint                  60
+    Broadcast interface disjoint        70
+    Downstream path                     90
+    Secondary path                      255
+ LFA termination hold-on timer : 0 secs 600 msecs
+ Number of areas attached to this router: 1
+MemPool - struct ospf lsa             : (0-70) | Total (70/100000) blk_size:176
+MemPool - struct rxmt                 : | Total (0/0) blk_size:8
+MemPool - OSPF RIB msg4               : | Total (0/0) blk_size:104
+MemPool - OSPF RIB msg4 nh 1     : | Total (0/0) blk_size:24
+MemPool - OSPF RIB msg4 nh 2     : | Total (0/0) blk_size:48
+MemPool - OSPF RIB msg4 nh 4     : | Total (0/0) blk_size:96
+MemPool - OSPF RIB msg4 nh 8     : | Total (0/0) blk_size:192
+MemPool - OSPF RIB msg4 nh 16    : | Total (0/0) blk_size:384
+MemPool - OSPF RIB msg4 nh 32    : | Total (0/0) blk_size:768
+MemPool - OSPF RIB msg4 nh 64    : | Total (0/0) blk_size:1536
+MemPool - OSPF RIB msg4 nh 128   : | Total (0/0) blk_size:3072
+MemPool - OSPF RIB msg4 nh 255   : | Total (0/0) blk_size:6120
+    Area 0.0.0.100
+        Number of interfaces in this area is 4(4)
+        Number of fully adjacent neighbors in this area is 2
+        Number of fully adjacent virtual neighbors through this area is 0
+        Area has no authentication
+        SPF algorithm last executed 11:31:32.046 ago
+        SPF algorithm executed 727 times
+        Number of LSA 58. Checksum 0x1ae9d1
+        Number of candidate PQ Node NSPF executed 0
+
+ Routing Process "ospf 1000" with ID 192.0.0.13
+ Process uptime is 63 days 3 hours 13 minutes
+ Process bound to VRF default
+ Bidirectional Forwarding Detection is configured
+ Conforms to RFC2328, and RFC1583 Compatibility flag is disabled
+ Supports only single TOS(TOS0) routes
+ Supports opaque LSA
+ Supports Graceful Restart
+ SPF schedule delay initial 0 secs 500 msecs
+ SPF schedule delay min 0 secs 500 msecs
+ SPF schedule delay max 50 secs 0 msecs
+ Refresh timer 10 secs
+ Number of incoming current DD exchange neighbors 0/64
+ Number of outgoing current DD exchange neighbors 0/64
+ Initial LSA throttle delay 0 secs 0 msecs
+ Minimum hold time for LSA throttle 5 secs 0 msecs
+ Maximum wait time for LSA throttle 5 secs 0 msecs
+ Minimum LSA arrival 1 secs 0 msecs
+ Number of external LSA 0. Checksum 0x000000
+ Number of opaque AS LSA 0. Checksum 0x000000
+ Number of non-default external LSA 0
+ External LSA database is unlimited.
+ Number of LSA originated 18
+ Number of LSA received 280990
+ IPFRR Computation Status:NOT-RUNNING
+ IPFRR per-prefix tiebreakers:
+    Name                                Index
+    Primary path                        20
+    Node Protecting                     30
+    Interface disjoint                  60
+    Broadcast interface disjoint        70
+    Downstream path                     90
+    Secondary path                      255
+ LFA termination hold-on timer : 0 secs 600 msecs
+ Number of areas attached to this router: 1
+MemPool - struct ospf lsa             : (0-121) | Total (121/100000) blk_size:176
+MemPool - struct rxmt                 : | Total (0/0) blk_size:8
+MemPool - OSPF RIB msg4               : | Total (0/0) blk_size:104
+MemPool - OSPF RIB msg4 nh 1     : | Total (0/0) blk_size:24
+MemPool - OSPF RIB msg4 nh 2     : | Total (0/0) blk_size:48
+MemPool - OSPF RIB msg4 nh 4     : | Total (0/0) blk_size:96
+MemPool - OSPF RIB msg4 nh 8     : | Total (0/0) blk_size:192
+MemPool - OSPF RIB msg4 nh 16    : | Total (0/0) blk_size:384
+MemPool - OSPF RIB msg4 nh 32    : | Total (0/0) blk_size:768
+MemPool - OSPF RIB msg4 nh 64    : | Total (0/0) blk_size:1536
+MemPool - OSPF RIB msg4 nh 128   : | Total (0/0) blk_size:3072
+MemPool - OSPF RIB msg4 nh 255   : | Total (0/0) blk_size:6120
+    Area 0.0.0.0 (BACKBONE)
+        Number of interfaces in this area is 4(4)
+        Number of fully adjacent neighbors in this area is 3
+        Area has no authentication
+        SPF algorithm last executed 00:43:18.656 ago
+        SPF algorithm executed 2031 times
+        Number of LSA 108. Checksum 0x2faede
+        Number of candidate PQ Node NSPF executed 0
+
+
+===== PCL.FSJ.C46C.RTR01 =====
+ Routing Process "ospf 1" with ID 100.127.0.23
+ Process uptime is 228 days 3 hours 46 minutes
+ Process bound to VRF default
+ Conforms to RFC2328, and RFC1583 Compatibility flag is disabled
+ Supports only single TOS(TOS0) routes
+ Supports opaque LSA
+ Supports Graceful Restart
+ SPF schedule delay initial 0 secs 500 msecs
+ SPF schedule delay min 0 secs 500 msecs
+ SPF schedule delay max 50 secs 0 msecs
+ Refresh timer 10 secs
+ Number of incoming current DD exchange neighbors 0/64
+ Number of outgoing current DD exchange neighbors 0/64
+ Initial LSA throttle delay 0 secs 0 msecs
+ Minimum hold time for LSA throttle 5 secs 0 msecs
+ Maximum wait time for LSA throttle 5 secs 0 msecs
+ Minimum LSA arrival 1 secs 0 msecs
+ Number of external LSA 0. Checksum 0x000000
+ Number of opaque AS LSA 0. Checksum 0x000000
+ Number of non-default external LSA 0
+ External LSA database is unlimited.
+ Number of LSA originated 705
+ Number of LSA received 565397
+ IPFRR Computation Status:NOT-RUNNING
+ IPFRR per-prefix tiebreakers:
+    Name                                Index
+    Primary path                        20
+    Node Protecting                     30
+    Interface disjoint                  60
+    Broadcast interface disjoint        70
+    Downstream path                     90
+    Secondary path                      255
+ LFA termination hold-on timer : 0 secs 600 msecs
+ Number of areas attached to this router: 1
+MemPool - struct ospf lsa             : (0-70) | Total (70/100000) blk_size:176
+MemPool - struct rxmt                 : | Total (0/0) blk_size:8
+MemPool - OSPF RIB msg4               : | Total (0/0) blk_size:104
+MemPool - OSPF RIB msg4 nh 1     : | Total (0/0) blk_size:24
+MemPool - OSPF RIB msg4 nh 2     : | Total (0/0) blk_size:48
+MemPool - OSPF RIB msg4 nh 4     : | Total (0/0) blk_size:96
+MemPool - OSPF RIB msg4 nh 8     : | Total (0/0) blk_size:192
+MemPool - OSPF RIB msg4 nh 16    : | Total (0/0) blk_size:384
+MemPool - OSPF RIB msg4 nh 32    : | Total (0/0) blk_size:768
+MemPool - OSPF RIB msg4 nh 64    : | Total (0/0) blk_size:1536
+MemPool - OSPF RIB msg4 nh 128   : | Total (0/0) blk_size:3072
+MemPool - OSPF RIB msg4 nh 255   : | Total (0/0) blk_size:6120
+    Area 0.0.0.100
+        Number of interfaces in this area is 4(4)
+        Number of fully adjacent neighbors in this area is 2
+        Number of fully adjacent virtual neighbors through this area is 0
+        Area has no authentication
+        SPF algorithm last executed 11:31:33.265 ago
+        SPF algorithm executed 8170 times
+        Number of LSA 58. Checksum 0x1ae9d1
+        Number of candidate PQ Node NSPF executed 0
+
+ Routing Process "ospf 1000" with ID 192.0.0.15
+ Process uptime is 63 days 2 hours 31 minutes
+ Process bound to VRF default
+ Bidirectional Forwarding Detection is configured
+ Conforms to RFC2328, and RFC1583 Compatibility flag is disabled
+ Supports only single TOS(TOS0) routes
+ Supports opaque LSA
+ Supports Graceful Restart
+ SPF schedule delay initial 0 secs 500 msecs
+ SPF schedule delay min 0 secs 500 msecs
+ SPF schedule delay max 50 secs 0 msecs
+ Refresh timer 10 secs
+ Number of incoming current DD exchange neighbors 0/64
+ Number of outgoing current DD exchange neighbors 0/64
+ Initial LSA throttle delay 0 secs 0 msecs
+ Minimum hold time for LSA throttle 5 secs 0 msecs
+ Maximum wait time for LSA throttle 5 secs 0 msecs
+ Minimum LSA arrival 1 secs 0 msecs
+ Number of external LSA 0. Checksum 0x000000
+ Number of opaque AS LSA 0. Checksum 0x000000
+ Number of non-default external LSA 0
+ External LSA database is unlimited.
+ Number of LSA originated 30
+ Number of LSA received 286564
+ IPFRR Computation Status:NOT-RUNNING
+ IPFRR per-prefix tiebreakers:
+    Name                                Index
+    Primary path                        20
+    Node Protecting                     30
+    Interface disjoint                  60
+    Broadcast interface disjoint        70
+    Downstream path                     90
+    Secondary path                      255
+ LFA termination hold-on timer : 0 secs 600 msecs
+ Number of areas attached to this router: 1
+MemPool - struct ospf lsa             : (0-121) | Total (121/100000) blk_size:176
+MemPool - struct rxmt                 : | Total (0/0) blk_size:8
+MemPool - OSPF RIB msg4               : | Total (0/0) blk_size:104
+MemPool - OSPF RIB msg4 nh 1     : | Total (0/0) blk_size:24
+MemPool - OSPF RIB msg4 nh 2     : | Total (0/0) blk_size:48
+MemPool - OSPF RIB msg4 nh 4     : | Total (0/0) blk_size:96
+MemPool - OSPF RIB msg4 nh 8     : | Total (0/0) blk_size:192
+MemPool - OSPF RIB msg4 nh 16    : | Total (0/0) blk_size:384
+MemPool - OSPF RIB msg4 nh 32    : | Total (0/0) blk_size:768
+MemPool - OSPF RIB msg4 nh 64    : | Total (0/0) blk_size:1536
+MemPool - OSPF RIB msg4 nh 128   : | Total (0/0) blk_size:3072
+MemPool - OSPF RIB msg4 nh 255   : | Total (0/0) blk_size:6120
+    Area 0.0.0.0 (BACKBONE)
+        Number of interfaces in this area is 3(3)
+        Number of fully adjacent neighbors in this area is 2
+        Area has no authentication
+        SPF algorithm last executed 00:43:19.873 ago
+        SPF algorithm executed 2029 times
+        Number of LSA 108. Checksum 0x2faede
+        Number of candidate PQ Node NSPF executed 0
+
+
+===== PCL.FSJ.INGA.RTR01 =====
+ Routing Process "ospf 1" with ID 100.127.0.17
+ Process uptime is 248 days 12 hours 16 minutes
+ Process bound to VRF default
+ Conforms to RFC2328, and RFC1583 Compatibility flag is disabled
+ Supports only single TOS(TOS0) routes
+ Supports opaque LSA
+ Supports Graceful Restart
+ SPF schedule delay initial 0 secs 500 msecs
+ SPF schedule delay min 0 secs 500 msecs
+ SPF schedule delay max 50 secs 0 msecs
+ Refresh timer 10 secs
+ Number of incoming current DD exchange neighbors 0/64
+ Number of outgoing current DD exchange neighbors 0/64
+ Initial LSA throttle delay 0 secs 0 msecs
+ Minimum hold time for LSA throttle 5 secs 0 msecs
+ Maximum wait time for LSA throttle 5 secs 0 msecs
+ Minimum LSA arrival 1 secs 0 msecs
+ Number of external LSA 0. Checksum 0x000000
+ Number of opaque AS LSA 0. Checksum 0x000000
+ Number of non-default external LSA 0
+ External LSA database is unlimited.
+ Number of LSA originated 682
+ Number of LSA received 608314
+ IPFRR Computation Status:NOT-RUNNING
+ IPFRR per-prefix tiebreakers:
+    Name                                Index
+    Primary path                        20
+    Node Protecting                     30
+    Interface disjoint                  60
+    Broadcast interface disjoint        70
+    Downstream path                     90
+    Secondary path                      255
+ LFA termination hold-on timer : 0 secs 600 msecs
+ Number of areas attached to this router: 1
+MemPool - struct ospf lsa             : (0-70) | Total (70/100000) blk_size:176
+MemPool - struct rxmt                 : | Total (0/0) blk_size:8
+MemPool - OSPF RIB msg4               : | Total (0/0) blk_size:104
+MemPool - OSPF RIB msg4 nh 1     : | Total (0/0) blk_size:24
+MemPool - OSPF RIB msg4 nh 2     : | Total (0/0) blk_size:48
+MemPool - OSPF RIB msg4 nh 4     : | Total (0/0) blk_size:96
+MemPool - OSPF RIB msg4 nh 8     : | Total (0/0) blk_size:192
+MemPool - OSPF RIB msg4 nh 16    : | Total (0/0) blk_size:384
+MemPool - OSPF RIB msg4 nh 32    : | Total (0/0) blk_size:768
+MemPool - OSPF RIB msg4 nh 64    : | Total (0/0) blk_size:1536
+MemPool - OSPF RIB msg4 nh 128   : | Total (0/0) blk_size:3072
+MemPool - OSPF RIB msg4 nh 255   : | Total (0/0) blk_size:6120
+    Area 0.0.0.100
+        Number of interfaces in this area is 4(4)
+        Number of fully adjacent neighbors in this area is 2
+        Number of fully adjacent virtual neighbors through this area is 0
+        Area has no authentication
+        SPF algorithm last executed 11:31:34.419 ago
+        SPF algorithm executed 8528 times
+        Number of LSA 58. Checksum 0x1ae9d1
+        Number of candidate PQ Node NSPF executed 0
+
+ Routing Process "ospf 1000" with ID 192.0.0.12
+ Process uptime is 63 days 3 hours 35 minutes
+ Process bound to VRF default
+ Bidirectional Forwarding Detection is configured
+ Conforms to RFC2328, and RFC1583 Compatibility flag is disabled
+ Supports only single TOS(TOS0) routes
+ Supports opaque LSA
+ Supports Graceful Restart
+ SPF schedule delay initial 0 secs 500 msecs
+ SPF schedule delay min 0 secs 500 msecs
+ SPF schedule delay max 50 secs 0 msecs
+ Refresh timer 10 secs
+ Number of incoming current DD exchange neighbors 0/64
+ Number of outgoing current DD exchange neighbors 0/64
+ Initial LSA throttle delay 0 secs 0 msecs
+ Minimum hold time for LSA throttle 5 secs 0 msecs
+ Maximum wait time for LSA throttle 5 secs 0 msecs
+ Minimum LSA arrival 1 secs 0 msecs
+ Number of external LSA 0. Checksum 0x000000
+ Number of opaque AS LSA 0. Checksum 0x000000
+ Number of non-default external LSA 0
+ External LSA database is unlimited.
+ Number of LSA originated 10
+ Number of LSA received 286625
+ IPFRR Computation Status:NOT-RUNNING
+ IPFRR per-prefix tiebreakers:
+    Name                                Index
+    Primary path                        20
+    Node Protecting                     30
+    Interface disjoint                  60
+    Broadcast interface disjoint        70
+    Downstream path                     90
+    Secondary path                      255
+ LFA termination hold-on timer : 0 secs 600 msecs
+ Number of areas attached to this router: 1
+MemPool - struct ospf lsa             : (0-121) | Total (121/100000) blk_size:176
+MemPool - struct rxmt                 : | Total (0/0) blk_size:8
+MemPool - OSPF RIB msg4               : | Total (0/0) blk_size:104
+MemPool - OSPF RIB msg4 nh 1     : | Total (0/0) blk_size:24
+MemPool - OSPF RIB msg4 nh 2     : | Total (0/0) blk_size:48
+MemPool - OSPF RIB msg4 nh 4     : | Total (0/0) blk_size:96
+MemPool - OSPF RIB msg4 nh 8     : | Total (0/0) blk_size:192
+MemPool - OSPF RIB msg4 nh 16    : | Total (0/0) blk_size:384
+MemPool - OSPF RIB msg4 nh 32    : | Total (0/0) blk_size:768
+MemPool - OSPF RIB msg4 nh 64    : | Total (0/0) blk_size:1536
+MemPool - OSPF RIB msg4 nh 128   : | Total (0/0) blk_size:3072
+MemPool - OSPF RIB msg4 nh 255   : | Total (0/0) blk_size:6120
+    Area 0.0.0.0 (BACKBONE)
+        Number of interfaces in this area is 3(3)
+        Number of fully adjacent neighbors in this area is 2
+        Area has no authentication
+        SPF algorithm last executed 00:43:21.027 ago
+        SPF algorithm executed 2033 times
+        Number of LSA 108. Checksum 0x2faede
+        Number of candidate PQ Node NSPF executed 0
+
+
+===== PCL.FSJ.CFCK.RTR01 =====
+ Routing Process "ospf 1" with ID 100.127.0.22
+ Process uptime is 215 days 2 hours 53 minutes
+ Process bound to VRF default
+ Conforms to RFC2328, and RFC1583 Compatibility flag is disabled
+ Supports only single TOS(TOS0) routes
+ Supports opaque LSA
+ Supports Graceful Restart
+ SPF schedule delay initial 0 secs 500 msecs
+ SPF schedule delay min 0 secs 500 msecs
+ SPF schedule delay max 50 secs 0 msecs
+ Refresh timer 10 secs
+ Number of incoming current DD exchange neighbors 0/64
+ Number of outgoing current DD exchange neighbors 0/64
+ Initial LSA throttle delay 0 secs 0 msecs
+ Minimum hold time for LSA throttle 5 secs 0 msecs
+ Maximum wait time for LSA throttle 5 secs 0 msecs
+ Minimum LSA arrival 1 secs 0 msecs
+ Number of external LSA 0. Checksum 0x000000
+ Number of opaque AS LSA 0. Checksum 0x000000
+ Number of non-default external LSA 0
+ External LSA database is unlimited.
+ Number of LSA originated 27
+ Number of LSA received 536533
+ IPFRR Computation Status:NOT-RUNNING
+ IPFRR per-prefix tiebreakers:
+    Name                                Index
+    Primary path                        20
+    Node Protecting                     30
+    Interface disjoint                  60
+    Broadcast interface disjoint        70
+    Downstream path                     90
+    Secondary path                      255
+ LFA termination hold-on timer : 0 secs 600 msecs
+ Number of areas attached to this router: 1
+MemPool - struct ospf lsa             : (0-70) | Total (70/100000) blk_size:176
+MemPool - struct rxmt                 : | Total (0/0) blk_size:8
+MemPool - OSPF RIB msg4               : | Total (0/0) blk_size:104
+MemPool - OSPF RIB msg4 nh 1     : | Total (0/0) blk_size:24
+MemPool - OSPF RIB msg4 nh 2     : | Total (0/0) blk_size:48
+MemPool - OSPF RIB msg4 nh 4     : | Total (0/0) blk_size:96
+MemPool - OSPF RIB msg4 nh 8     : | Total (0/0) blk_size:192
+MemPool - OSPF RIB msg4 nh 16    : | Total (0/0) blk_size:384
+MemPool - OSPF RIB msg4 nh 32    : | Total (0/0) blk_size:768
+MemPool - OSPF RIB msg4 nh 64    : | Total (0/0) blk_size:1536
+MemPool - OSPF RIB msg4 nh 128   : | Total (0/0) blk_size:3072
+MemPool - OSPF RIB msg4 nh 255   : | Total (0/0) blk_size:6120
+    Area 0.0.0.100
+        Number of interfaces in this area is 4(4)
+        Number of fully adjacent neighbors in this area is 2
+        Number of fully adjacent virtual neighbors through this area is 0
+        Area has no authentication
+        SPF algorithm last executed 11:31:35.567 ago
+        SPF algorithm executed 7099 times
+        Number of LSA 58. Checksum 0x1ae9d1
+        Number of candidate PQ Node NSPF executed 0
+
+ Routing Process "ospf 1000" with ID 192.0.0.11
+ Process uptime is 63 days 3 hours 42 minutes
+ Process bound to VRF default
+ Bidirectional Forwarding Detection is configured
+ Conforms to RFC2328, and RFC1583 Compatibility flag is disabled
+ Supports only single TOS(TOS0) routes
+ Supports opaque LSA
+ Supports Graceful Restart
+ SPF schedule delay initial 0 secs 500 msecs
+ SPF schedule delay min 0 secs 500 msecs
+ SPF schedule delay max 50 secs 0 msecs
+ Refresh timer 10 secs
+ Number of incoming current DD exchange neighbors 0/64
+ Number of outgoing current DD exchange neighbors 0/64
+ Initial LSA throttle delay 0 secs 0 msecs
+ Minimum hold time for LSA throttle 5 secs 0 msecs
+ Maximum wait time for LSA throttle 5 secs 0 msecs
+ Minimum LSA arrival 1 secs 0 msecs
+ Number of external LSA 0. Checksum 0x000000
+ Number of opaque AS LSA 0. Checksum 0x000000
+ Number of non-default external LSA 0
+ External LSA database is unlimited.
+ Number of LSA originated 10
+ Number of LSA received 286628
+ IPFRR Computation Status:NOT-RUNNING
+ IPFRR per-prefix tiebreakers:
+    Name                                Index
+    Primary path                        20
+    Node Protecting                     30
+    Interface disjoint                  60
+    Broadcast interface disjoint        70
+    Downstream path                     90
+    Secondary path                      255
+ LFA termination hold-on timer : 0 secs 600 msecs
+ Number of areas attached to this router: 1
+MemPool - struct ospf lsa             : (0-121) | Total (121/100000) blk_size:176
+MemPool - struct rxmt                 : | Total (0/0) blk_size:8
+MemPool - OSPF RIB msg4               : | Total (0/0) blk_size:104
+MemPool - OSPF RIB msg4 nh 1     : | Total (0/0) blk_size:24
+MemPool - OSPF RIB msg4 nh 2     : | Total (0/0) blk_size:48
+MemPool - OSPF RIB msg4 nh 4     : | Total (0/0) blk_size:96
+MemPool - OSPF RIB msg4 nh 8     : | Total (0/0) blk_size:192
+MemPool - OSPF RIB msg4 nh 16    : | Total (0/0) blk_size:384
+MemPool - OSPF RIB msg4 nh 32    : | Total (0/0) blk_size:768
+MemPool - OSPF RIB msg4 nh 64    : | Total (0/0) blk_size:1536
+MemPool - OSPF RIB msg4 nh 128   : | Total (0/0) blk_size:3072
+MemPool - OSPF RIB msg4 nh 255   : | Total (0/0) blk_size:6120
+    Area 0.0.0.0 (BACKBONE)
+        Number of interfaces in this area is 3(3)
+        Number of fully adjacent neighbors in this area is 2
+        Area has no authentication
+        SPF algorithm last executed 00:43:22.175 ago
+        SPF algorithm executed 2027 times
+        Number of LSA 108. Checksum 0x2faede
+        Number of candidate PQ Node NSPF executed 0
+
+
+===== PCL.FSJ.MTVW.RTR01 =====
+ Routing Process "ospf 1" with ID 100.127.0.16
+ Process uptime is 194 days 2 hours 32 minutes
+ Process bound to VRF default
+ Conforms to RFC2328, and RFC1583 Compatibility flag is disabled
+ Supports only single TOS(TOS0) routes
+ Supports opaque LSA
+ Supports Graceful Restart
+ SPF schedule delay initial 0 secs 500 msecs
+ SPF schedule delay min 0 secs 500 msecs
+ SPF schedule delay max 50 secs 0 msecs
+ Refresh timer 10 secs
+ Number of incoming current DD exchange neighbors 0/64
+ Number of outgoing current DD exchange neighbors 0/64
+ Initial LSA throttle delay 0 secs 0 msecs
+ Minimum hold time for LSA throttle 5 secs 0 msecs
+ Maximum wait time for LSA throttle 5 secs 0 msecs
+ Minimum LSA arrival 1 secs 0 msecs
+ Number of external LSA 0. Checksum 0x000000
+ Number of opaque AS LSA 0. Checksum 0x000000
+ Number of non-default external LSA 0
+ External LSA database is unlimited.
+ Number of LSA originated 10
+ Number of LSA received 486635
+ IPFRR Computation Status:NOT-RUNNING
+ IPFRR per-prefix tiebreakers:
+    Name                                Index
+    Primary path                        20
+    Node Protecting                     30
+    Interface disjoint                  60
+    Broadcast interface disjoint        70
+    Downstream path                     90
+    Secondary path                      255
+ LFA termination hold-on timer : 0 secs 600 msecs
+ Number of areas attached to this router: 1
+MemPool - struct ospf lsa             : (0-70) | Total (70/100000) blk_size:176
+MemPool - struct rxmt                 : | Total (0/0) blk_size:8
+MemPool - OSPF RIB msg4               : | Total (0/0) blk_size:104
+MemPool - OSPF RIB msg4 nh 1     : | Total (0/0) blk_size:24
+MemPool - OSPF RIB msg4 nh 2     : | Total (0/0) blk_size:48
+MemPool - OSPF RIB msg4 nh 4     : | Total (0/0) blk_size:96
+MemPool - OSPF RIB msg4 nh 8     : | Total (0/0) blk_size:192
+MemPool - OSPF RIB msg4 nh 16    : | Total (0/0) blk_size:384
+MemPool - OSPF RIB msg4 nh 32    : | Total (0/0) blk_size:768
+MemPool - OSPF RIB msg4 nh 64    : | Total (0/0) blk_size:1536
+MemPool - OSPF RIB msg4 nh 128   : | Total (0/0) blk_size:3072
+MemPool - OSPF RIB msg4 nh 255   : | Total (0/0) blk_size:6120
+    Area 0.0.0.100
+        Number of interfaces in this area is 4(4)
+        Number of fully adjacent neighbors in this area is 2
+        Number of fully adjacent virtual neighbors through this area is 0
+        Area has no authentication
+        SPF algorithm last executed 11:31:36.738 ago
+        SPF algorithm executed 6401 times
+        Number of LSA 58. Checksum 0x1ae9d1
+        Number of candidate PQ Node NSPF executed 0
+
+ Routing Process "ospf 1000" with ID 192.0.0.10
+ Process uptime is 63 days 5 hours 49 minutes
+ Process bound to VRF default
+ Conforms to RFC2328, and RFC1583 Compatibility flag is disabled
+ Supports only single TOS(TOS0) routes
+ Supports opaque LSA
+ Supports Graceful Restart
+ SPF schedule delay initial 0 secs 500 msecs
+ SPF schedule delay min 0 secs 500 msecs
+ SPF schedule delay max 50 secs 0 msecs
+ Refresh timer 10 secs
+ Number of incoming current DD exchange neighbors 0/64
+ Number of outgoing current DD exchange neighbors 0/64
+ Initial LSA throttle delay 0 secs 0 msecs
+ Minimum hold time for LSA throttle 5 secs 0 msecs
+ Maximum wait time for LSA throttle 5 secs 0 msecs
+ Minimum LSA arrival 1 secs 0 msecs
+ Number of external LSA 0. Checksum 0x000000
+ Number of opaque AS LSA 0. Checksum 0x000000
+ Number of non-default external LSA 0
+ External LSA database is unlimited.
+ Number of LSA originated 18
+ Number of LSA received 275480
+ IPFRR Computation Status:NOT-RUNNING
+ IPFRR per-prefix tiebreakers:
+    Name                                Index
+    Primary path                        20
+    Node Protecting                     30
+    Interface disjoint                  60
+    Broadcast interface disjoint        70
+    Downstream path                     90
+    Secondary path                      255
+ LFA termination hold-on timer : 0 secs 600 msecs
+ Number of areas attached to this router: 1
+MemPool - struct ospf lsa             : (0-121) | Total (121/100000) blk_size:176
+MemPool - struct rxmt                 : | Total (0/0) blk_size:8
+MemPool - OSPF RIB msg4               : | Total (0/0) blk_size:104
+MemPool - OSPF RIB msg4 nh 1     : | Total (0/0) blk_size:24
+MemPool - OSPF RIB msg4 nh 2     : | Total (0/0) blk_size:48
+MemPool - OSPF RIB msg4 nh 4     : | Total (0/0) blk_size:96
+MemPool - OSPF RIB msg4 nh 8     : | Total (0/0) blk_size:192
+MemPool - OSPF RIB msg4 nh 16    : | Total (0/0) blk_size:384
+MemPool - OSPF RIB msg4 nh 32    : | Total (0/0) blk_size:768
+MemPool - OSPF RIB msg4 nh 64    : | Total (0/0) blk_size:1536
+MemPool - OSPF RIB msg4 nh 128   : | Total (0/0) blk_size:3072
+MemPool - OSPF RIB msg4 nh 255   : | Total (0/0) blk_size:6120
+    Area 0.0.0.0 (BACKBONE)
+        Number of interfaces in this area is 5(5)
+        Number of fully adjacent neighbors in this area is 4
+        Area has no authentication
+        SPF algorithm last executed 00:43:23.344 ago
+        SPF algorithm executed 2040 times
+        Number of LSA 108. Checksum 0x2faede
+        Number of candidate PQ Node NSPF executed 0
+
+
+===== PCL.FSJ.DGPK.RTR01 =====
+ Routing Process "ospf 1" with ID 100.127.0.20
+ Process uptime is 347 days 21 hours 45 minutes
+ Process bound to VRF default
+ Conforms to RFC2328, and RFC1583 Compatibility flag is disabled
+ Supports only single TOS(TOS0) routes
+ Supports opaque LSA
+ Supports Graceful Restart
+ SPF schedule delay initial 0 secs 500 msecs
+ SPF schedule delay min 0 secs 500 msecs
+ SPF schedule delay max 50 secs 0 msecs
+ Refresh timer 10 secs
+ Number of incoming current DD exchange neighbors 0/64
+ Number of outgoing current DD exchange neighbors 0/64
+ Initial LSA throttle delay 0 secs 0 msecs
+ Minimum hold time for LSA throttle 5 secs 0 msecs
+ Maximum wait time for LSA throttle 5 secs 0 msecs
+ Minimum LSA arrival 1 secs 0 msecs
+ Number of external LSA 0. Checksum 0x000000
+ Number of opaque AS LSA 0. Checksum 0x000000
+ Number of non-default external LSA 0
+ External LSA database is unlimited.
+ Number of LSA originated 33
+ Number of LSA received 823226
+ IPFRR Computation Status:NOT-RUNNING
+ IPFRR per-prefix tiebreakers:
+    Name                                Index
+    Primary path                        20
+    Node Protecting                     30
+    Interface disjoint                  60
+    Broadcast interface disjoint        70
+    Downstream path                     90
+    Secondary path                      255
+ LFA termination hold-on timer : 0 secs 600 msecs
+ Number of areas attached to this router: 1
+MemPool - struct ospf lsa             : (0-70) | Total (70/100000) blk_size:176
+MemPool - struct rxmt                 : | Total (0/0) blk_size:8
+MemPool - OSPF RIB msg4               : | Total (0/0) blk_size:104
+MemPool - OSPF RIB msg4 nh 1     : | Total (0/0) blk_size:24
+MemPool - OSPF RIB msg4 nh 2     : | Total (0/0) blk_size:48
+MemPool - OSPF RIB msg4 nh 4     : | Total (0/0) blk_size:96
+MemPool - OSPF RIB msg4 nh 8     : | Total (0/0) blk_size:192
+MemPool - OSPF RIB msg4 nh 16    : | Total (0/0) blk_size:384
+MemPool - OSPF RIB msg4 nh 32    : | Total (0/0) blk_size:768
+MemPool - OSPF RIB msg4 nh 64    : | Total (0/0) blk_size:1536
+MemPool - OSPF RIB msg4 nh 128   : | Total (0/0) blk_size:3072
+MemPool - OSPF RIB msg4 nh 255   : | Total (0/0) blk_size:6120
+    Area 0.0.0.100
+        Number of interfaces in this area is 3(4)
+        Number of fully adjacent neighbors in this area is 1
+        Number of fully adjacent virtual neighbors through this area is 0
+        Area has no authentication
+        SPF algorithm last executed 11:31:37.877 ago
+        SPF algorithm executed 8905 times
+        Number of LSA 58. Checksum 0x1ae9d1
+        Number of candidate PQ Node NSPF executed 0
+
+ Routing Process "ospf 1000" with ID 192.0.0.21
+ Process uptime is 63 days 1 hour 53 minutes
+ Process bound to VRF default
+ Bidirectional Forwarding Detection is configured
+ Conforms to RFC2328, and RFC1583 Compatibility flag is disabled
+ Supports only single TOS(TOS0) routes
+ Supports opaque LSA
+ Supports Graceful Restart
+ SPF schedule delay initial 0 secs 500 msecs
+ SPF schedule delay min 0 secs 500 msecs
+ SPF schedule delay max 50 secs 0 msecs
+ Refresh timer 10 secs
+ Number of incoming current DD exchange neighbors 0/64
+ Number of outgoing current DD exchange neighbors 0/64
+ Initial LSA throttle delay 0 secs 0 msecs
+ Minimum hold time for LSA throttle 5 secs 0 msecs
+ Maximum wait time for LSA throttle 5 secs 0 msecs
+ Minimum LSA arrival 1 secs 0 msecs
+ Number of external LSA 0. Checksum 0x000000
+ Number of opaque AS LSA 0. Checksum 0x000000
+ Number of non-default external LSA 0
+ External LSA database is unlimited.
+ Number of LSA originated 12
+ Number of LSA received 286573
+ IPFRR Computation Status:NOT-RUNNING
+ IPFRR per-prefix tiebreakers:
+    Name                                Index
+    Primary path                        20
+    Node Protecting                     30
+    Interface disjoint                  60
+    Broadcast interface disjoint        70
+    Downstream path                     90
+    Secondary path                      255
+ LFA termination hold-on timer : 0 secs 600 msecs
+ Number of areas attached to this router: 1
+MemPool - struct ospf lsa             : (0-121) | Total (121/100000) blk_size:176
+MemPool - struct rxmt                 : | Total (0/0) blk_size:8
+MemPool - OSPF RIB msg4               : | Total (0/0) blk_size:104
+MemPool - OSPF RIB msg4 nh 1     : | Total (0/0) blk_size:24
+MemPool - OSPF RIB msg4 nh 2     : | Total (0/0) blk_size:48
+MemPool - OSPF RIB msg4 nh 4     : | Total (0/0) blk_size:96
+MemPool - OSPF RIB msg4 nh 8     : | Total (0/0) blk_size:192
+MemPool - OSPF RIB msg4 nh 16    : | Total (0/0) blk_size:384
+MemPool - OSPF RIB msg4 nh 32    : | Total (0/0) blk_size:768
+MemPool - OSPF RIB msg4 nh 64    : | Total (0/0) blk_size:1536
+MemPool - OSPF RIB msg4 nh 128   : | Total (0/0) blk_size:3072
+MemPool - OSPF RIB msg4 nh 255   : | Total (0/0) blk_size:6120
+    Area 0.0.0.0 (BACKBONE)
+        Number of interfaces in this area is 3(3)
+        Number of fully adjacent neighbors in this area is 2
+        Area has no authentication
+        SPF algorithm last executed 00:43:26.982 ago
+        SPF algorithm executed 1954 times
+        Number of LSA 108. Checksum 0x2faede
+        Number of candidate PQ Node NSPF executed 0
+
+
+===== PCL.FSJ.BEAR.RTR01 =====
+ Routing Process "ospf 1" with ID 100.127.0.15
+ Process uptime is 333 days 21 hours 53 minutes
+ Process bound to VRF default
+ Conforms to RFC2328, and RFC1583 Compatibility flag is disabled
+ Supports only single TOS(TOS0) routes
+ Supports opaque LSA
+ Supports Graceful Restart
+ SPF schedule delay initial 0 secs 500 msecs
+ SPF schedule delay min 0 secs 500 msecs
+ SPF schedule delay max 50 secs 0 msecs
+ Refresh timer 10 secs
+ Number of incoming current DD exchange neighbors 0/64
+ Number of outgoing current DD exchange neighbors 0/64
+ Initial LSA throttle delay 0 secs 0 msecs
+ Minimum hold time for LSA throttle 5 secs 0 msecs
+ Maximum wait time for LSA throttle 5 secs 0 msecs
+ Minimum LSA arrival 1 secs 0 msecs
+ Number of external LSA 0. Checksum 0x000000
+ Number of opaque AS LSA 0. Checksum 0x000000
+ Number of non-default external LSA 0
+ External LSA database is unlimited.
+ Number of LSA originated 58
+ Number of LSA received 794791
+ IPFRR Computation Status:NOT-RUNNING
+ IPFRR per-prefix tiebreakers:
+    Name                                Index
+    Primary path                        20
+    Node Protecting                     30
+    Interface disjoint                  60
+    Broadcast interface disjoint        70
+    Downstream path                     90
+    Secondary path                      255
+ LFA termination hold-on timer : 0 secs 600 msecs
+ Number of areas attached to this router: 1
+MemPool - struct ospf lsa             : (0-70) | Total (70/100000) blk_size:176
+MemPool - struct rxmt                 : | Total (0/0) blk_size:8
+MemPool - OSPF RIB msg4               : | Total (0/0) blk_size:104
+MemPool - OSPF RIB msg4 nh 1     : | Total (0/0) blk_size:24
+MemPool - OSPF RIB msg4 nh 2     : | Total (0/0) blk_size:48
+MemPool - OSPF RIB msg4 nh 4     : | Total (0/0) blk_size:96
+MemPool - OSPF RIB msg4 nh 8     : | Total (0/0) blk_size:192
+MemPool - OSPF RIB msg4 nh 16    : | Total (0/0) blk_size:384
+MemPool - OSPF RIB msg4 nh 32    : | Total (0/0) blk_size:768
+MemPool - OSPF RIB msg4 nh 64    : | Total (0/0) blk_size:1536
+MemPool - OSPF RIB msg4 nh 128   : | Total (0/0) blk_size:3072
+MemPool - OSPF RIB msg4 nh 255   : | Total (0/0) blk_size:6120
+    Area 0.0.0.100
+        Number of interfaces in this area is 4(4)
+        Number of fully adjacent neighbors in this area is 1
+        Number of fully adjacent virtual neighbors through this area is 0
+        Area has no authentication
+        SPF algorithm last executed 11:31:39.068 ago
+        SPF algorithm executed 8864 times
+        Number of LSA 58. Checksum 0x1ae9d1
+        Number of candidate PQ Node NSPF executed 0
+
+ Routing Process "ospf 1000" with ID 192.0.0.22
+ Process uptime is 63 days 2 hours 0 minute
+ Process bound to VRF default
+ Bidirectional Forwarding Detection is configured
+ Conforms to RFC2328, and RFC1583 Compatibility flag is disabled
+ Supports only single TOS(TOS0) routes
+ Supports opaque LSA
+ Supports Graceful Restart
+ SPF schedule delay initial 0 secs 500 msecs
+ SPF schedule delay min 0 secs 500 msecs
+ SPF schedule delay max 50 secs 0 msecs
+ Refresh timer 10 secs
+ Number of incoming current DD exchange neighbors 0/64
+ Number of outgoing current DD exchange neighbors 0/64
+ Initial LSA throttle delay 0 secs 0 msecs
+ Minimum hold time for LSA throttle 5 secs 0 msecs
+ Maximum wait time for LSA throttle 5 secs 0 msecs
+ Minimum LSA arrival 1 secs 0 msecs
+ Number of external LSA 0. Checksum 0x000000
+ Number of opaque AS LSA 0. Checksum 0x000000
+ Number of non-default external LSA 0
+ External LSA database is unlimited.
+ Number of LSA originated 1372
+ Number of LSA received 282903
+ IPFRR Computation Status:NOT-RUNNING
+ IPFRR per-prefix tiebreakers:
+    Name                                Index
+    Primary path                        20
+    Node Protecting                     30
+    Interface disjoint                  60
+    Broadcast interface disjoint        70
+    Downstream path                     90
+    Secondary path                      255
+ LFA termination hold-on timer : 0 secs 600 msecs
+ Number of areas attached to this router: 1
+MemPool - struct ospf lsa             : (0-121) | Total (121/100000) blk_size:176
+MemPool - struct rxmt                 : | Total (0/0) blk_size:8
+MemPool - OSPF RIB msg4               : | Total (0/0) blk_size:104
+MemPool - OSPF RIB msg4 nh 1     : | Total (0/0) blk_size:24
+MemPool - OSPF RIB msg4 nh 2     : | Total (0/0) blk_size:48
+MemPool - OSPF RIB msg4 nh 4     : | Total (0/0) blk_size:96
+MemPool - OSPF RIB msg4 nh 8     : | Total (0/0) blk_size:192
+MemPool - OSPF RIB msg4 nh 16    : | Total (0/0) blk_size:384
+MemPool - OSPF RIB msg4 nh 32    : | Total (0/0) blk_size:768
+MemPool - OSPF RIB msg4 nh 64    : | Total (0/0) blk_size:1536
+MemPool - OSPF RIB msg4 nh 128   : | Total (0/0) blk_size:3072
+MemPool - OSPF RIB msg4 nh 255   : | Total (0/0) blk_size:6120
+    Area 0.0.0.0 (BACKBONE)
+        Number of interfaces in this area is 4(4)
+        Number of fully adjacent neighbors in this area is 2
+        Area has no authentication
+        SPF algorithm last executed 00:43:28.175 ago
+        SPF algorithm executed 1941 times
+        Number of LSA 108. Checksum 0x2faede
+        Number of candidate PQ Node NSPF executed 0
+
+
+===== PCL.FSJ.PKMT.RTR01 =====
+ Routing Process "ospf 1" with ID 100.127.0.19
+ Process uptime is 158 days 10 hours 48 minutes
+ Process bound to VRF default
+ Conforms to RFC2328, and RFC1583 Compatibility flag is disabled
+ Supports only single TOS(TOS0) routes
+ Supports opaque LSA
+ Supports Graceful Restart
+ SPF schedule delay initial 0 secs 500 msecs
+ SPF schedule delay min 0 secs 500 msecs
+ SPF schedule delay max 50 secs 0 msecs
+ Refresh timer 10 secs
+ Number of incoming current DD exchange neighbors 0/64
+ Number of outgoing current DD exchange neighbors 0/64
+ Initial LSA throttle delay 0 secs 0 msecs
+ Minimum hold time for LSA throttle 5 secs 0 msecs
+ Maximum wait time for LSA throttle 5 secs 0 msecs
+ Minimum LSA arrival 1 secs 0 msecs
+ Number of external LSA 0. Checksum 0x000000
+ Number of opaque AS LSA 0. Checksum 0x000000
+ Number of non-default external LSA 0
+ External LSA database is unlimited.
+ Number of LSA originated 1038
+ Number of LSA received 395116
+ IPFRR Computation Status:NOT-RUNNING
+ IPFRR per-prefix tiebreakers:
+    Name                                Index
+    Primary path                        20
+    Node Protecting                     30
+    Interface disjoint                  60
+    Broadcast interface disjoint        70
+    Downstream path                     90
+    Secondary path                      255
+ LFA termination hold-on timer : 0 secs 600 msecs
+ Number of areas attached to this router: 1
+MemPool - struct ospf lsa             : (0-70) | Total (70/100000) blk_size:176
+MemPool - struct rxmt                 : | Total (0/0) blk_size:8
+MemPool - OSPF RIB msg4               : | Total (0/0) blk_size:104
+MemPool - OSPF RIB msg4 nh 1     : | Total (0/0) blk_size:24
+MemPool - OSPF RIB msg4 nh 2     : | Total (0/0) blk_size:48
+MemPool - OSPF RIB msg4 nh 4     : | Total (0/0) blk_size:96
+MemPool - OSPF RIB msg4 nh 8     : | Total (0/0) blk_size:192
+MemPool - OSPF RIB msg4 nh 16    : | Total (0/0) blk_size:384
+MemPool - OSPF RIB msg4 nh 32    : | Total (0/0) blk_size:768
+MemPool - OSPF RIB msg4 nh 64    : | Total (0/0) blk_size:1536
+MemPool - OSPF RIB msg4 nh 128   : | Total (0/0) blk_size:3072
+MemPool - OSPF RIB msg4 nh 255   : | Total (0/0) blk_size:6120
+    Area 0.0.0.100
+        Number of interfaces in this area is 4(4)
+        Number of fully adjacent neighbors in this area is 2
+        Number of fully adjacent virtual neighbors through this area is 0
+        Area has no authentication
+        SPF algorithm last executed 11:31:40.198 ago
+        SPF algorithm executed 3571 times
+        Number of LSA 58. Checksum 0x1ae9d1
+        Number of candidate PQ Node NSPF executed 0
+
+ Routing Process "ospf 1000" with ID 192.0.0.14
+ Process uptime is 63 days 2 hours 41 minutes
+ Process bound to VRF default
+ Bidirectional Forwarding Detection is configured
+ Conforms to RFC2328, and RFC1583 Compatibility flag is disabled
+ Supports only single TOS(TOS0) routes
+ Supports opaque LSA
+ Supports Graceful Restart
+ SPF schedule delay initial 0 secs 500 msecs
+ SPF schedule delay min 0 secs 500 msecs
+ SPF schedule delay max 50 secs 0 msecs
+ Refresh timer 10 secs
+ Number of incoming current DD exchange neighbors 0/64
+ Number of outgoing current DD exchange neighbors 0/64
+ Initial LSA throttle delay 0 secs 0 msecs
+ Minimum hold time for LSA throttle 5 secs 0 msecs
+ Maximum wait time for LSA throttle 5 secs 0 msecs
+ Minimum LSA arrival 1 secs 0 msecs
+ Number of external LSA 0. Checksum 0x000000
+ Number of opaque AS LSA 0. Checksum 0x000000
+ Number of non-default external LSA 0
+ External LSA database is unlimited.
+ Number of LSA originated 1372
+ Number of LSA received 277835
+ IPFRR Computation Status:NOT-RUNNING
+ IPFRR per-prefix tiebreakers:
+    Name                                Index
+    Primary path                        20
+    Node Protecting                     30
+    Interface disjoint                  60
+    Broadcast interface disjoint        70
+    Downstream path                     90
+    Secondary path                      255
+ LFA termination hold-on timer : 0 secs 600 msecs
+ Number of areas attached to this router: 1
+MemPool - struct ospf lsa             : (0-121) | Total (121/100000) blk_size:176
+MemPool - struct rxmt                 : | Total (0/0) blk_size:8
+MemPool - OSPF RIB msg4               : | Total (0/0) blk_size:104
+MemPool - OSPF RIB msg4 nh 1     : | Total (0/0) blk_size:24
+MemPool - OSPF RIB msg4 nh 2     : | Total (0/0) blk_size:48
+MemPool - OSPF RIB msg4 nh 4     : | Total (0/0) blk_size:96
+MemPool - OSPF RIB msg4 nh 8     : | Total (0/0) blk_size:192
+MemPool - OSPF RIB msg4 nh 16    : | Total (0/0) blk_size:384
+MemPool - OSPF RIB msg4 nh 32    : | Total (0/0) blk_size:768
+MemPool - OSPF RIB msg4 nh 64    : | Total (0/0) blk_size:1536
+MemPool - OSPF RIB msg4 nh 128   : | Total (0/0) blk_size:3072
+MemPool - OSPF RIB msg4 nh 255   : | Total (0/0) blk_size:6120
+    Area 0.0.0.0 (BACKBONE)
+        Number of interfaces in this area is 4(4)
+        Number of fully adjacent neighbors in this area is 3
+        Area has no authentication
+        SPF algorithm last executed 00:43:26.803 ago
+        SPF algorithm executed 2037 times
+        Number of LSA 108. Checksum 0x2faede
+        Number of candidate PQ Node NSPF executed 0
+
+
+===== PCL.FSJ.MCKN.RTR01 =====
+ Routing Process "ospf 1" with ID 100.127.0.24
+ Process uptime is 390 days 3 hours 25 minutes
+ Process bound to VRF default
+ Conforms to RFC2328, and RFC1583 Compatibility flag is disabled
+ Supports only single TOS(TOS0) routes
+ Supports opaque LSA
+ Supports Graceful Restart
+ SPF schedule delay initial 0 secs 500 msecs
+ SPF schedule delay min 0 secs 500 msecs
+ SPF schedule delay max 50 secs 0 msecs
+ Refresh timer 10 secs
+ Number of incoming current DD exchange neighbors 0/64
+ Number of outgoing current DD exchange neighbors 0/64
+ Initial LSA throttle delay 0 secs 0 msecs
+ Minimum hold time for LSA throttle 5 secs 0 msecs
+ Maximum wait time for LSA throttle 5 secs 0 msecs
+ Minimum LSA arrival 1 secs 0 msecs
+ Number of external LSA 0. Checksum 0x000000
+ Number of opaque AS LSA 0. Checksum 0x000000
+ Number of non-default external LSA 0
+ External LSA database is unlimited.
+ Number of LSA originated 221
+ Number of LSA received 905150
+ IPFRR Computation Status:NOT-RUNNING
+ IPFRR per-prefix tiebreakers:
+    Name                                Index
+    Primary path                        20
+    Node Protecting                     30
+    Interface disjoint                  60
+    Broadcast interface disjoint        70
+    Downstream path                     90
+    Secondary path                      255
+ LFA termination hold-on timer : 0 secs 600 msecs
+ Number of areas attached to this router: 1
+MemPool - struct ospf lsa             : (0-70) | Total (70/100000) blk_size:176
+MemPool - struct rxmt                 : | Total (0/0) blk_size:8
+MemPool - OSPF RIB msg4               : | Total (0/0) blk_size:104
+MemPool - OSPF RIB msg4 nh 1     : | Total (0/0) blk_size:24
+MemPool - OSPF RIB msg4 nh 2     : | Total (0/0) blk_size:48
+MemPool - OSPF RIB msg4 nh 4     : | Total (0/0) blk_size:96
+MemPool - OSPF RIB msg4 nh 8     : | Total (0/0) blk_size:192
+MemPool - OSPF RIB msg4 nh 16    : | Total (0/0) blk_size:384
+MemPool - OSPF RIB msg4 nh 32    : | Total (0/0) blk_size:768
+MemPool - OSPF RIB msg4 nh 64    : | Total (0/0) blk_size:1536
+MemPool - OSPF RIB msg4 nh 128   : | Total (0/0) blk_size:3072
+MemPool - OSPF RIB msg4 nh 255   : | Total (0/0) blk_size:6120
+    Area 0.0.0.100
+        Number of interfaces in this area is 4(4)
+        Number of fully adjacent neighbors in this area is 2
+        Number of fully adjacent virtual neighbors through this area is 0
+        Area has no authentication
+        SPF algorithm last executed 11:31:41.799 ago
+        SPF algorithm executed 9270 times
+        Number of LSA 58. Checksum 0x1ae7d2
+        Number of candidate PQ Node NSPF executed 0
+
+ Routing Process "ospf 1000" with ID 192.0.0.16
+ Process uptime is 63 days 4 hours 55 minutes
+ Process bound to VRF default
+ Bidirectional Forwarding Detection is configured
+ Conforms to RFC2328, and RFC1583 Compatibility flag is disabled
+ Supports only single TOS(TOS0) routes
+ Supports opaque LSA
+ Supports Graceful Restart
+ SPF schedule delay initial 0 secs 500 msecs
+ SPF schedule delay min 0 secs 500 msecs
+ SPF schedule delay max 50 secs 0 msecs
+ Refresh timer 10 secs
+ Number of incoming current DD exchange neighbors 0/64
+ Number of outgoing current DD exchange neighbors 0/64
+ Initial LSA throttle delay 0 secs 0 msecs
+ Minimum hold time for LSA throttle 5 secs 0 msecs
+ Maximum wait time for LSA throttle 5 secs 0 msecs
+ Minimum LSA arrival 1 secs 0 msecs
+ Number of external LSA 0. Checksum 0x000000
+ Number of opaque AS LSA 0. Checksum 0x000000
+ Number of non-default external LSA 0
+ External LSA database is unlimited.
+ Number of LSA originated 6
+ Number of LSA received 292262
+ IPFRR Computation Status:NOT-RUNNING
+ IPFRR per-prefix tiebreakers:
+    Name                                Index
+    Primary path                        20
+    Node Protecting                     30
+    Interface disjoint                  60
+    Broadcast interface disjoint        70
+    Downstream path                     90
+    Secondary path                      255
+ LFA termination hold-on timer : 0 secs 600 msecs
+ Number of areas attached to this router: 1
+MemPool - struct ospf lsa             : (0-121) | Total (121/100000) blk_size:176
+MemPool - struct rxmt                 : | Total (0/0) blk_size:8
+MemPool - OSPF RIB msg4               : | Total (0/0) blk_size:104
+MemPool - OSPF RIB msg4 nh 1     : | Total (0/0) blk_size:24
+MemPool - OSPF RIB msg4 nh 2     : | Total (0/0) blk_size:48
+MemPool - OSPF RIB msg4 nh 4     : | Total (0/0) blk_size:96
+MemPool - OSPF RIB msg4 nh 8     : | Total (0/0) blk_size:192
+MemPool - OSPF RIB msg4 nh 16    : | Total (0/0) blk_size:384
+MemPool - OSPF RIB msg4 nh 32    : | Total (0/0) blk_size:768
+MemPool - OSPF RIB msg4 nh 64    : | Total (0/0) blk_size:1536
+MemPool - OSPF RIB msg4 nh 128   : | Total (0/0) blk_size:3072
+MemPool - OSPF RIB msg4 nh 255   : | Total (0/0) blk_size:6120
+    Area 0.0.0.0 (BACKBONE)
+        Number of interfaces in this area is 2(2)
+        Number of fully adjacent neighbors in this area is 1
+        Area has no authentication
+        SPF algorithm last executed 00:43:28.403 ago
+        SPF algorithm executed 2019 times
+        Number of LSA 108. Checksum 0x2faede
+        Number of candidate PQ Node NSPF executed 0
+
