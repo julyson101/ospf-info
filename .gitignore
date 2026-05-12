@@ -5,7 +5,7 @@ ospf_info-venv
 
 # Python cache
 __pycache__/
-*.yc
+*.pyc
 
 # IDE/editor files
 .vscode/
@@ -17,4 +17,7 @@ __pycache__/
 # Logs
 logs/
 *.log
+
+# Output
+output/
 
